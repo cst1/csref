@@ -1,0 +1,196 @@
+/* Universal Styles */
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 40px;
+  background-color: #023;
+  color: #88a;
+}
+
+footer {
+    text-align: right;
+    border-top: 1px solid grey;
+    margin-top: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #66a;
+  /* border: 1px solid green; */
+}
+
+h3 {
+  color: #68a;
+}
+
+p {
+  margin: 10px 2px;
+  line-height: 1.2em;
+}
+
+i {
+  font-style: italic;
+}
+
+.blobz-icon {
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+
+.blobz-icon img {
+  width: 100px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+#content {
+  position: relative;
+  margin: 0 auto;
+  width: 840px;
+  /* border: 1px solid white; */
+}
+
+#tabbed-content {
+  /* border: 1px solid yellow; */
+  margin-top: 40px;
+}
+
+.tabs {
+  /* border: 1px solid magenta; */
+  height: 30px;
+}
+
+.tabs li {
+  float: left;
+}
+
+.tabs li:first-child a {
+  border-left: 1px solid #555;
+  border-top-left-radius: 3px;
+}
+
+.tabs a {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 32px;
+  position: relative;
+  border-right: 1px solid #555;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #222;
+  color: #689;
+  background-color: #014;
+}
+
+.tabs a:hover {
+  background-color: #025;
+  color: #aaa;
+}
+
+.tabs .current,
+.tabs .current:hover {
+  color: #ccd;
+  background-color: #135;
+  border-top: 2px solid white;
+  border-bottom: none;
+}
+
+.panes {
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+  background-color: #135;
+
+  padding: 10px;
+  height: 480px;
+}
+
+.pane {
+  display: none;
+}
+
+.pane.current {
+  display: block;
+}
+
+.pane-content {
+  /* border: 1px solid red; */
+  /* width: 100%; */
+  padding: 2px;
+  margin: 0 auto;
+}
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+}
+
+.left-col {
+  width: 72%;
+}
+.right-col {
+  width: 150px;
+  text-align: right;
+}
+.right-col img {
+  width: 140px;
+}
+
+.right-col code {
+  font-family: Consolas, monaco, monospace;
+  color: #aac;
+  display: block;
+  margin-top: 10px;
+}
+
+#topic-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 430px;
+  /* border: 1px dashed red; */
+}
+
+.flex-child {
+  padding: 10px;
+  border-left: 1px dotted #458;
+}
+
+.flex-child .group {
+  padding-bottom: 20px;
+}
+
+.flex-child h3 {
+  font-weight: bold;
+}
+.flex-child p {
+  margin: 6px 2px;
+  font-size: 14px;
+}
+
+#contact p {
+  margin: 20px 10px;
+}
+
+#contact i {
+  color: #bbd;
+}
+
+#contact a,
+#contact a:visited {
+  color: #bbd;
+}
