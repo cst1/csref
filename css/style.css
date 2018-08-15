@@ -18,17 +18,18 @@ footer {
 h1 {
   font-size: 40px;
   margin: 10px 0;
+  color: #687;
 }
 
 h2 {
   margin: 10px 0;
   font-size: 24px;
   color: #66a;
-  /* border: 1px solid green; */
 }
 
 h3 {
-  color: #68a;
+  font-size: 20px;
+  color: #67a;
 }
 
 p {
@@ -40,34 +41,26 @@ i {
   font-style: italic;
 }
 
-.blobz-icon {
-  position: absolute;
-  right: 0;
-  top: -20px;
-}
-
-.blobz-icon img {
-  width: 100px;
-}
-
 .clickable {
   cursor: pointer;
 }
 
-#content {
+a,
+a:visited {
+  color: #bbd;
+}
+
+main {
   position: relative;
   margin: 0 auto;
-  width: 840px;
-  /* border: 1px solid white; */
+  /* width: 840px; */
 }
 
 #tabbed-content {
-  /* border: 1px solid yellow; */
   margin-top: 40px;
 }
 
 .tabs {
-  /* border: 1px solid magenta; */
   height: 30px;
 }
 
@@ -114,11 +107,12 @@ i {
   background-color: #135;
 
   padding: 10px;
-  height: 480px;
+  /* height: 480px; */
 }
 
 .pane {
   display: none;
+  min-height: 500px;
 }
 
 .pane.current {
@@ -132,6 +126,9 @@ i {
   margin: 0 auto;
 }
 
+
+/* LEGACY STYLES */
+/*
 .col {
   display: inline-block;
   vertical-align: top;
@@ -162,7 +159,6 @@ i {
   justify-content: space-around;
   align-items: stretch;
   height: 430px;
-  /* border: 1px dashed red; */
 }
 
 .flex-child {
@@ -194,3 +190,4 @@ i {
 #contact a:visited {
   color: #bbd;
 }
+ */
